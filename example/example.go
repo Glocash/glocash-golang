@@ -43,6 +43,7 @@ func main() {
 	// classic payment
 	param := map[string]string{
 		"REQ_INVOICE":   strconv.FormatInt(time.Now().Unix(), 10),
+		"REQ_APPID":     "380",
 		"BIL_PRICE":     "98.03",
 		"BIL_CURRENCY":  "USD",
 		"BIL_GOODSNAME": "DEFAULT GOODS",
